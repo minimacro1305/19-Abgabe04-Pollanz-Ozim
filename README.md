@@ -8,10 +8,10 @@ Tasks:
 - [ ] Taskergebnisse Schritt für Schritt auf Git stellen
   - [ ] Führung Taskliste
   - [ ] Veröffentlichung  in  Gitmit  aktuell  durchgeführten  Tätigkeiten,  z.B.  Testfälle geschriebenso wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen.
-- [ ] Korrigieren Sie den Codebzw. Debuggen Sie ihn um die Fehler zu finden
-  - [ ] Es befinden sich gesamt 3Fehler im Source Code.
-  - [ ] Bei Bedarf Optimieren Sie das Queue Beispiel.
-  - [ ] Ergänzen Sie das Beispiel nach eigenenErmessen um es testen zu können.
+- [x] Korrigieren Sie den Codebzw. Debuggen Sie ihn um die Fehler zu finden
+  - [x] Es befinden sich gesamt 3Fehler im Source Code.
+  - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
+  - [x] Ergänzen Sie das Beispiel nach eigenenErmessen um es testen zu können.
 - [ ] Erstellen  Sie  für  Klasse  und  alle  Methoden  Kommentare  um  mittels  Javadoc  eine  API Dokumentation zu erzeugen
   - [ ] IntegrierenSie ein Bild (der generierten Dokumentation) in Ihren Report.
 - [ ] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
