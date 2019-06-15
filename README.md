@@ -1,10 +1,10 @@
-# 19-Abgabe04-Pollanz-Ozim
+﻿# 19-Abgabe04-Pollanz-Ozim
 
 Das repository wird genutzt um die unten stehenden tasks im Rahmen der 4ten Aufgabenstellung durchzuführen
 
 Tasks:
 - [x] Übertragen Angabe Taskliste in Markdown Readme
-- [ ] Einspielen  Queue Vorlage ausRepository: https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/Queue
+- [x] Einspielen  Queue Vorlage ausRepository: https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/Queue
 - [ ] Taskergebnisse Schritt für Schritt auf Git stellen
   - [ ] Führung Taskliste
   - [ ] Veröffentlichung  in  Gitmit  aktuell  durchgeführten  Tätigkeiten,  z.B.  Testfälle geschriebenso wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen.
