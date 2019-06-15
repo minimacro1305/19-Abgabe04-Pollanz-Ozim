@@ -1,11 +1,11 @@
-#LAB REPORT
+# LAB REPORT
 
 	-Abgabe 4
 	-Joachim Pollanz
 	-Ulrike Ozim
 	-Repository: https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim
 
-##VORGEHEN
+## VORGEHEN
 	-Taskliste wurde erstellt.
 
 	-Das Queue Beispiel wurde auf das repository geladen.
@@ -18,7 +18,7 @@
 
 
 
-##LINKS / LITERATUR
+## LINKS / LITERATUR
 
 
 
