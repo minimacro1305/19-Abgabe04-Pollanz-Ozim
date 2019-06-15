@@ -2,96 +2,106 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>at.fhj.iit</groupId>
-    <artifactId>Queue</artifactId>
-    <version>1.0-SNAPSHOT</version>
+	<groupId>at.fhj.iit</groupId>
+	<artifactId>Queue</artifactId>
+	<version>1.0-SNAPSHOT</version>
 
 	<developers>
 		<developer>
-		  <id>joachimpollanz</id>
-		  <name>Joachim Pollanz</name>
-		  <email>joachim.pollanz@edu.fh-joanneum.at</email>
-		  <roles>
-			<role>Student</role>
-		  </roles>
-		  <timezone>Europe/Vienna</timezone>
-		  <properties>
-			<picUrl></picUrl>
-		  </properties>
+			<id>joachimpollanz</id>
+			<name>Joachim Pollanz</name>
+			<email>joachim.pollanz@edu.fh-joanneum.at</email>
+			<roles>
+				<role>Student</role>
+			</roles>
+			<timezone>Europe/Vienna</timezone>
+			<properties>
+				<picUrl/>
+			</properties>
 		</developer>
 		<developer>
-		  <id>ulrikeozim</id>
-		  <name>Ulrike Ozim</name>
-		  <email>ulrike.ozim@edu.fh-joanneum.at</email>
-		  <roles>
-			<role>Student</role>
-		  </roles>
-		  <timezone>Europe/Vienna</timezone>
-		  <properties>
-			<picUrl></picUrl>
-		  </properties>
+			<id>ulrikeozim</id>
+			<name>Ulrike Ozim</name>
+			<email>ulrike.ozim@edu.fh-joanneum.at</email>
+			<roles>
+				<role>Student</role>
+			</roles>
+			<timezone>Europe/Vienna</timezone>
+			<properties>
+				<picUrl/>
+			</properties>
 		</developer>
 	</developers>
-	
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
-                <configuration>
-                    <release>11</release>
-                </configuration>
-            </plugin>
-			
-			
+
+	<build>
+		<plugins>
 			<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-javadoc-plugin</artifactId>
-			<version>3.1.0</version>
-			</plugin>
-			
-			<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>3.0.0</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				<configuration>
+					<release>11</release>
+				</configuration>
 			</plugin>
 
 
 			<plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-site-plugin</artifactId>
-              <version>3.7.1</version>
-			  <configuration>
-                    <show>private</show>
-                    <nohelp>true</nohelp>
-			</configuration>
-            </plugin>
-        </plugins>
-    </build>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.1.0</version>
+			</plugin>
 
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-	
-	
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+				<configuration>
+					<show>private</show>
+					<nohelp>true</nohelp>
+				</configuration>
+			</plugin>
+
+
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+
+
 	<reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <show>public</show>
-                </configuration>
-            </plugin>
-        </plugins>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<show>public</show>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>3.0.0-M3</version>
+
+			</plugin>
+		</plugins>
 	</reporting>
 </project>
