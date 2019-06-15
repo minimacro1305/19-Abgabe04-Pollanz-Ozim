@@ -14,12 +14,12 @@ Tasks:
   - [x] Ergänzen Sie das Beispiel nach eigenenErmessen um es testen zu können.
 - [x] Erstellen  Sie  für  Klasse  und  alle  Methoden  Kommentare  um  mittels  Javadoc  eine  API Dokumentation zu erzeugen
   - [ ] IntegrierenSie ein Bild (der generierten Dokumentation) in Ihren Report.
-- [ ] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
-  - [ ] Sie   werden die „selben“ Testfälle   mehrfach   erstellen   müssen   um „mehrere Variationen“ für einen möglichst vollständigen  Test zu  erreichen. Achten  Sie dabei mit unterschiedlichen Daten zu testen.
-  - [ ] JavaDoc Kommentare erstellen.
+- [x] Erstellung JUnit Tests (vollständig testen, mehrere Varianten)
+  - [x] Sie   werden die „selben“ Testfälle   mehrfach   erstellen   müssen   um „mehrere Variationen“ für einen möglichst vollständigen  Test zu  erreichen. Achten  Sie dabei mit unterschiedlichen Daten zu testen.
+  - [x] JavaDoc Kommentare erstellen.
   - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
-- [ ] Passen  Sie  Ihr  pom.xml  auf  das  Projekt  an,damit Sie  das  Projekt erstellenaber  auch Dokumentation generieren können.
-  - [ ] EntwicklerInnen Informationenhinzufügen.
+- [x] Passen  Sie  Ihr  pom.xml  auf  das  Projekt  an,damit Sie  das  Projekt erstellenaber  auch Dokumentation generieren können.
+  - [x] EntwicklerInnen Informationenhinzufügen.
   - [ ] Integration LoggingBibliothek log4jmittels MavenDependencies.
 - [ ] Log4j (Version 2) integrieren und in jeder Methode ins Log schreiben
   - [ ] Siehe aktualisiertes Stack Beispiel.
@@ -29,7 +29,7 @@ Tasks:
   - [ ] Geben Sie eine Error Lognachricht aus bevor Sie einen Fehler werfen.
   - [ ] Ergebnisse (Konsolenausgabe) als Bild in Dokumentationeinfließen lassen.
 - [ ] Maven Site Dokumentation erstellen
-  - [ ] Inklusive Javadoc Code und Javadoc Test Klassen
+  - [x] Inklusive Javadoc Code und Javadoc Test Klassen
   - [ ] Inklusive Menü mit Verweis auf manuell erstellte Seite
     - [ ] Seite erläutert Funktionsweise Queue
   - [ ] Geben Sie ein Bild der Maven Site Dokumentation in den Lab Report

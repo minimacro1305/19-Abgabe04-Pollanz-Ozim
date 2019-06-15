@@ -26,18 +26,6 @@ public class StringQueue implements Queue {
 	}
 
 	/**
-	 * main method to debug code
-	 * @param args unused parameter
-	 */
-	public static void main(String[] args) {
-
-		StringQueue q = new StringQueue(5);
-		System.out.println(q.offer("hi"));
-		System.out.println(q.element());
-		System.out.println(q.element());
-	}
-
-	/**
 	 * Adds an element to the queue
 	 * @param obj element to be added
 	 * @return returns true if element was succesfully added
