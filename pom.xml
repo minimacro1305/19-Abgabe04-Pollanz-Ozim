@@ -10,20 +10,29 @@
 
 	<developers>
 		<developer>
-		  <id>michaelulm</id>
-		  <name>Michael Ulm</name>
-		  <email>michael.ulm@fh-joanneum.at</email>
-		  <url>https://www.michael-ulm.at</url>
-		  <organization>FH JOANNEUM GmbH</organization>
-		  <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+		  <id>joachimpollanz</id>
+		  <name>Joachim Pollanz</name>
+		  <email>joachim.pollanz@edu.fh-joanneum.at</email>
 		  <roles>
-			<role>Lecturer</role>
+			<role>Student</role>
 		  </roles>
 		  <timezone>Europe/Vienna</timezone>
 		  <properties>
-			<picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+			<picUrl></picUrl>
 		  </properties>
-		</developer>     
+		</developer>
+		<developer>
+		  <id>ulrikeozim</id>
+		  <name>Ulrike Ozim</name>
+		  <email>ulrike.ozim@edu.fh-joanneum.at</email>
+		  <roles>
+			<role>Student</role>
+		  </roles>
+		  <timezone>Europe/Vienna</timezone>
+		  <properties>
+			<picUrl></picUrl>
+		  </properties>
+		</developer>
 	</developers>
 	
     <build>
@@ -36,6 +45,30 @@
                     <release>11</release>
                 </configuration>
             </plugin>
+			
+			
+			<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-javadoc-plugin</artifactId>
+			<version>3.1.0</version>
+			</plugin>
+			
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
+			</plugin>
+
+
+			<plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-site-plugin</artifactId>
+              <version>3.7.1</version>
+			  <configuration>
+                    <show>private</show>
+                    <nohelp>true</nohelp>
+			</configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -47,4 +80,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	
+	
+	<reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <show>public</show>
+                </configuration>
+            </plugin>
+        </plugins>
+	</reporting>
 </project>

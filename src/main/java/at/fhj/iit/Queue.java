@@ -1,5 +1,8 @@
 package at.fhj.iit;
 
+/**
+ * Interface used for StringQueue
+ */
 public interface Queue {
 	
 	/**
