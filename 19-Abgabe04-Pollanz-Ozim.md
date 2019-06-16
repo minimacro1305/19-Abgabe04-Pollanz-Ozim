@@ -26,10 +26,10 @@ In der pom.xml wurde das maven surefire report plugin hinzugefügt um die test e
 
 ## Pictures
 
-![TestDocs](https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/TestDocs.png)
-![javaDoc(https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/javaDocs.png)
-![log4j.png](https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/log4j.png)
-![mavenSite.png](https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/mavenSite.png)
+![TestDocs](https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/TestDocs.png?raw=>)
+![javaDoc(https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/javaDocs.png?raw=>)
+![log4j.png](https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/log4j.png?raw=>)
+![mavenSite.png](https://github.com/minimacro1305/19-Abgabe04-Pollanz-Ozim/blob/master/pics/mavenSite.png?raw=>)
 
 
 
