@@ -20,7 +20,7 @@ Tasks:
   - [ ] Integrieren Sie ein Bild (der generierten Dokumentation) in Ihren Report.
 - [x] Passen  Sie  Ihr  pom.xml  auf  das  Projekt  an,damit Sie  das  Projekt erstellenaber  auch Dokumentation generieren können.
   - [x] EntwicklerInnen Informationenhinzufügen.
-  - [ ] Integration LoggingBibliothek log4jmittels MavenDependencies.
+  - [x] Integration LoggingBibliothek log4jmittels MavenDependencies.
 - [x] Log4j (Version 2) integrieren und in jeder Methode ins Log schreiben
   - [x] Siehe aktualisiertes Stack Beispiel.
   - [x] Erstellen Sie einen Statischen Logger der auf die Konsole schreibt.
