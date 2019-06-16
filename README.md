@@ -41,4 +41,4 @@ Tasks:
   - [x] Korrekturlesen Dokumentation
   - [x] PDF erstellen (zB Dillinger)
 - [x] Überprüfung Vollständigkeit der Abgabe
-- [ ] Abgabe PDF Version der Abgabe
+- [x] Abgabe PDF Version der Abgabe
