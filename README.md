@@ -5,9 +5,9 @@ Das repository wird genutzt um die unten stehenden tasks im Rahmen der 4ten Aufg
 Tasks:
 - [x] Übertragen Angabe Taskliste in Markdown Readme
 - [x] Einspielen  Queue Vorlage ausRepository: https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/Queue
-- [ ] Taskergebnisse Schritt für Schritt auf Git stellen
-  - [ ] Führung Taskliste
-  - [ ] Veröffentlichung  in  Gitmit  aktuell  durchgeführten  Tätigkeiten,  z.B.  Testfälle geschriebenso wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen.
+- [x] Taskergebnisse Schritt für Schritt auf Git stellen
+  - [x] Führung Taskliste
+  - [x] Veröffentlichung  in  Gitmit  aktuell  durchgeführten  Tätigkeiten,  z.B.  Testfälle geschriebenso wird auch in der Taskliste diese Aufgabe als erledigt markiert und Testfälle inkl. geänderter Taskliste ins Repository übertragen.
 - [x] Korrigieren Sie den Codebzw. Debuggen Sie ihn um die Fehler zu finden
   - [x] Es befinden sich gesamt 3Fehler im Source Code.
   - [x] Bei Bedarf Optimieren Sie das Queue Beispiel.
@@ -36,9 +36,9 @@ Tasks:
     - [ ] Der Inhalt der manuell erstellten Seite sollte ersichtlich sein
 - [x] Erstellung detaillierter und nachvollziehbarer Markdown Lab Report
   - [x] Übertragung Information aus Labreport Template.
-  - [x]Alle Schritte dieser Übung nachvollziehbar erläutern.
+  - [x] Alle Schritte dieser Übung nachvollziehbar erläutern.
   - [x] Übung  Github  Flavor: Erstellen  Sie  einen  Codeblock  im  Dokument,  welcher  3 Zeilen Pythonund 3 Zeilen JavaSourceCode korrekt darstellt.
   - [x] Korrekturlesen Dokumentation
-  - [ ] PDF erstellen (zB Dillinger)
-- [ ] Überprüfung Vollständigkeit der Abgabe
+  - [x] PDF erstellen (zB Dillinger)
+- [x] Überprüfung Vollständigkeit der Abgabe
 - [ ] Abgabe PDF Version der Abgabe
